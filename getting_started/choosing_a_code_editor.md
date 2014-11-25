@@ -6,7 +6,7 @@ Although you can write code using even a simple text editor, a quality IDE can p
 
 ## FlashDevelop
 
-<screenshot>
+<screenshot/>
 
 [FlashDevelop](http://www.flashdevelop.org) is one of the strongest IDEs for Haxe and OpenFL development. If you are a Windows user (and perhaps if you are not), we recommend that you try FlashDevelop first to get a feel for what an integrated environment looks like. Many developers prefer FlashDevelop.
 
@@ -14,7 +14,7 @@ OpenFL includes FlashDevelop project files when you use the "openfl create" comm
 
 ## Sublime Text
 
-<screenshot>
+<screenshot/>
 
 [Sublime Text](http://www.sublimetext.com) is a code editor, with support for Haxe and OpenFL using the [Haxe Sublime Bundle](https://github.com/clemos/haxe-sublime-bundle). Sublime Text is cross-platform, with support for Windows, Mac and Linux.
 
@@ -24,7 +24,7 @@ Sublime Text is free-to-use, with reminders to pay for continued use.
 
 ## IntelliJ IDEA
 
-<screenshot>
+<screenshot/>
 
 [IntelliJ IDEA](https://www.jetbrains.com/idea/) is primarily marketed as a Java IDE, but it has growing support within the Haxe community, including large teams, such as TiVo. The full edition, as well as the free community edition, support the [Haxe plugin](https://plugins.jetbrains.com/plugin/6873?pr=idea), which is not easy to install, but can provide a fuller native IDE experience for Mac or Linux users.
 
