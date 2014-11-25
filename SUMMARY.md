@@ -4,12 +4,12 @@
    * [Installing OpenFL](getting_started/installing_openfl.md)
    * [Choosing a Code Editor](getting_started/choosing_a_code_editor.md)
    * [Your First Project](getting_started/your_first_project.md)
-   * [Next Steps](getting_started/next_steps.md)
-* [OpenFL Basics](openfl_basics/README.md)
-   * [Assets](openfl_basics/assets.md)
-   * [Display List](openfl_basics/display_list.md)
-   * [Tweening](openfl_basics/tweening.md)
-   * [Events](openfl_basics/events.md)
+<!--   * [Next Steps](getting_started/next_steps.md) -->
+<!--* [OpenFL Basics](openfl_basics/README.md) -->
+<!--   * [Assets](openfl_basics/assets.md) -->
+<!--   * [Display List](openfl_basics/display_list.md) -->
+<!--   * [Tweening](openfl_basics/tweening.md) -->
+<!--   * [Events](openfl_basics/events.md) -->
 * [Command-Line Tools](command-line_tools/README.md)
    * [Create New Project](command-line_tools/create_new_project.md)
    * [Project Files](command-line_tools/project_files/README.md)
@@ -31,6 +31,6 @@
        * [Setup Tizen](advanced_setup/platforms/setup_tizen.md)
        * [Setup Flash](advanced_setup/platforms/setup_flash.md)
        * [Setup HTML5](advanced_setup/platforms/setup_html5.md)
-   * [Development Builds](advanced_setup/development_builds.md)
-   * [Manual Install](advanced_setup/manual_install.md)
+<!--   * [Development Builds](advanced_setup/development_builds.md) -->
+<!--   * [Manual Install](advanced_setup/manual_install.md) -->
 

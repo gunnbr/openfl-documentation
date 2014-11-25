@@ -16,5 +16,5 @@ It can be difficult to install the standalone player when running Linux, so here
 
 ## Forums
 
-If you encounter any problems when setting up OpenFL for Flash, please visit the [forums](http://www.openfl.org/forums/#!/installation).
+If you encounter any problems when setting up OpenFL for Flash, please visit the [forums](http://community.openfl.org/c/help).
 

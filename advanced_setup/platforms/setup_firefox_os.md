@@ -14,5 +14,5 @@ You can find more information about working with the App Manager [here](https://
 
 ## Forums
 
-If you encounter problems setting up OpenFL to compile for Firefox OS, please visit the [forums](http://www.openfl.org/forums/#!/installation).
+If you encounter problems setting up OpenFL to compile for Firefox OS, please visit the [forums](http://community.openfl.org/c/help).
 

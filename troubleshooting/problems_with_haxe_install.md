@@ -16,5 +16,5 @@ The script has been tested on Ubuntu, Fedora, SUSE, Arch Linux and other major d
 
 ## Forums
 
-If you encounter other problems while installing Haxe, please visit our friendly [forums](http://www.openfl.org/forums/#!/installation).
+If you encounter other problems while installing Haxe, please visit our friendly [forums](http://community.openfl.org/c/help).
 

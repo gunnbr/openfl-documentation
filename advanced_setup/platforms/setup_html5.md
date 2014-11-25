@@ -10,5 +10,5 @@ There is generally no setup required for the HTML5 target, but it may vary depen
 
 ## Forums
 
-If you encounter any problems when setting up OpenFL for HTML5, please visit the [forums](http://www.openfl.org/forums/#!/installation).
+If you encounter any problems when setting up OpenFL for HTML5, please visit the [forums](http://community.openfl.org/c/help).
 

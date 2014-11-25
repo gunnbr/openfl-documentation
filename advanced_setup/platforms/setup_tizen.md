@@ -4,7 +4,7 @@
 
 Open a command-prompt or terminal and run the following command:
 
-    lime setup tizen
+    openfl setup tizen
 
 ## Manual Install
 
@@ -14,11 +14,11 @@ In order to build applications for Tizen, you will need the Tizen 2.2 SDK instal
 
 Open a command-prompt or terminal and run the following command:
 
-    lime setup tizen
+    openfl setup tizen
 
 When prompted to open the address for the Tizen SDK, type "n" and press enter. Afterward, it should prompt for where it has been installed. Type the location where you installed the Tizen SDK and press enter.
 
 ## Forums
 
-If you encounter any problems when setting up OpenFL for Tizen, please visit the [forums](http://www.openfl.org/forums/#!/installation).
+If you encounter any problems when setting up OpenFL for Tizen, please visit the [forums](http://community.openfl.org/c/help).
 

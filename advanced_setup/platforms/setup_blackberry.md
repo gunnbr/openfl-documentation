@@ -4,7 +4,7 @@
 
 Open a command-prompt or terminal and run the following command:
 
-    lime setup blackberry
+    openfl setup blackberry
 
 ## Manual Install
 
@@ -18,11 +18,11 @@ You can also use newer BlackBerry Native SDKs, which support BlackBerry 10 devic
 
 Open a command-prompt or terminal and run the following command:
 
-    lime setup blackberry
+    openfl setup blackberry
 
 When prompted to automatically download and install the Native SDK, type "n" and press enter. Afterward, it will instead prompt for where it is installed. Type the location of your BlackBerry Native SDK, and press enter.
 
 ## Forums
 
-If you encounter any problems when setting up OpenFL for BlackBerry, please visit the [forums](http://www.openfl.org/forums/#!/installation).
+If you encounter any problems when setting up OpenFL for BlackBerry, please visit the [forums](http://community.openfl.org/c/help).
 

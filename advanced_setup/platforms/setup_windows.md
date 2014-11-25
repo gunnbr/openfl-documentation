@@ -4,7 +4,7 @@
 
 Open a command-prompt or terminal and run the following command:
 
-    lime setup windows
+    openfl setup windows
 
 ## Manual Install
 
@@ -16,9 +16,9 @@ We recommend Visual Studio C++ 2010 Express, but newer versions should also be c
 
  * [http://go.microsoft.com/?linkid=9709949](http://go.microsoft.com/?linkid=9709949)
 
-You can only target Windows from a Windows system right now. If you are interested in contributing to cross-desktop builds to Windows, please visit the [Contributors room](http://www.hipchat.com/ggsrxiqGV) on HipChat.
+You can only target Windows from a Windows system right now. If you are interested in contributing to cross-desktop builds to Windows, please open a topic on the forums.
 
 ## Forums
 
-If you encounter any problems when setting up OpenFL for targeting Windows, please visit the [forums](http://www.openfl.org/forums/#!/installation).
+If you encounter any problems when setting up OpenFL for targeting Windows, please visit the [forums](http://community.openfl.org/c/help).
 

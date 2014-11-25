@@ -19,7 +19,7 @@ You can create more defines using the `<set />` or `<unset />` tags:
 
 You can add defines using the command-line as well:
 
-    lime test flash -Ddefine
+    openfl test flash -Ddefine
 
 If you need to have multiple values in a conditional, spaces imply an "and" and vertical bars imply an "or", like this:
 

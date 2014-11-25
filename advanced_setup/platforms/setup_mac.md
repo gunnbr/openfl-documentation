@@ -10,9 +10,9 @@ In order to build Neko applications for Mac, no further dependencies are require
 
 You can find Xcode in the Mac App Store.
 
-You can only target Mac from a Mac system right now. If you are interested in contributing to cross-desktop builds to Mac, please visit the [Contributors room](http://www.hipchat.com/ggsrxiqGV) on HipChat.
+You can only target Mac from a Mac system right now. If you are interested in contributing to cross-desktop builds to Mac, please open a topic on the forums.
 
 ## Forums
 
-You should not need to install the Xcode command-line tools. If this is not the case, or if you encounter other problems when setting up OpenFL for Mac, please visit the [forums](http://www.openfl.org/forums/#!/installation).
+You should not need to install the Xcode command-line tools. If this is not the case, or if you encounter other problems when setting up OpenFL for Mac, please visit the [forums](http://community.openfl.org/c/help).
 

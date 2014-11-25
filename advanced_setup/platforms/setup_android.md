@@ -4,7 +4,7 @@
 
 Open a command-prompt or terminal and run the following command:
 
-    lime setup android
+    openfl setup android
 
 If you intend to use an Android emulator, create an AVD with hardware acceleration that targets Android 4.1 or greater. If you are using an Android device, you may need to install drivers before it will be recognized by the Android tools.
 
@@ -27,15 +27,15 @@ Although there are newer versions of the Java JDK, there are known problems usin
 
 After these tools are installed, OpenFL still needs to know where they are installed. Open a command-prompt or terminal and run the following command:
 
-    lime setup android
+    openfl setup android
 
 When prompted to automatically download and install each component, type "n" and press enter. At the end, the setup process will ask for each location. When prompted, enter the path to where the Android SDK, NDK and other components are installed.
 
 If you intend to use an Android emulator, create an AVD with hardware acceleration that targets Android 4.1 or greater. You may also need to install drivers for your Android device, before you can deploy to it.
 
-x86 emulators and devices are not currently supported, but if you are interested in helping contribute to this feature, please visit the [Contributors room](http://www.hipchat.com/ggsrxiqGV) on HipChat.
+x86 emulators and devices are not currently supported, but if you are interested in helping contribute to this feature, please open a topic on the forums.
 
 ## Forums
 
-If you encounter any problems when setting up OpenFL for Android, please visit the [forums](http://www.openfl.org/forums/#!/installation).
+If you encounter any problems when setting up OpenFL for Android, please visit the [forums](http://community.openfl.org/c/help).
 

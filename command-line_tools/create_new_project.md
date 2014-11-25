@@ -4,11 +4,11 @@
 
 OpenFL includes a new project template you can use to generate a project quickly. Open a command-prompt or terminal, and run the following command, using the name you want for your project (such as "JetGame" or "Platformer") instead of "MyProject":
 
-    lime create openfl:project MyProject
+    openfl create project MyProject
 
 This will create a new directory with the same name as the project by default. If you want to use a different output directory, you can add an additional argument:
 
-    lime create openfl:project MyProject ~/Projects/MyProject
+    openfl create project MyProject ~/Projects/MyProject
 
 ## Manually
 
@@ -39,7 +39,7 @@ Here is an example of a project XML file:
 
     </project>
 
-This is just the start, you can read more about the full project XML format here: [[Project XML Format||2.4.-Project-XML-Format]].
+This is just the start, you can read more about the full project XML format here: [Project XML Format](command-line_tools/project_files/xml_format.md).
 
 ### Haxe Project
 

@@ -1,12 +1,12 @@
 # Basic Commands
 
-## lime build
+## openfl build
 
 To build an OpenFL project, you can use a code editor which is integrated with OpenFL, or you can open a command-prompt or terminal, and run the command directly.
 
 If you are in the same directory as your project:
 
-    lime build neko
+    openfl build neko
 
 You can substitute "neko" for any OpenFL target, including:
 
@@ -24,8 +24,8 @@ Some targets are not available from every host platform. For example, iOS is onl
 
 If you are not in the same directory as your project, you can add an additional argument with either the path to the project directory or to the project file:
 
-    lime build /path/to/project neko
-    lime build /path/to/project/project.xml neko
+    openfl build /path/to/project neko
+    openfl build /path/to/project/project.xml neko
 
 There are also additional "target flags" you can use to specify adjustments to the current target:
 
@@ -42,24 +42,24 @@ By default, the tools will perform a release build, but you can add "-debug" to 
 
 You can also add defines when building on the command-line:
 
-    lime build neko -Dhello
+    openfl build neko -Dhello
 
-## lime run
+## openfl run
 
 Similar to the "build" command, the tools also support "run" to launch your application on the desktop, or to install and launch the application on a connected mobile device, depending on the target.
 
 All of the same flags and targets apply.
 
-## lime test
+## openfl test
 
-"lime test" is a combination of build and run, in a single command. If you are running commands by hand, this is usually the most valuable.
+"openfl test" is a combination of build and run, in a single command. If you are running commands by hand, this is usually the most valuable.
 
-## lime setup
+## openfl setup
 
 The "setup" command can help download and install the dependencies needed to target certain platforms, or to tell the command-line tools where it can find where these tools are installed. For example, the Android SDK and NDK when targeting Android, or installing Visual Studio C++ for Windows.
 
-Follow the directions under [[Platforms|1.4.-Platforms]] to setup each platform.
+Follow the directions under [Platforms](advanced_setup/platforms/README.md) to setup each platform.
 
-## lime help
+## openfl help
 
-For more information about the command-line tools, and the commands available, run "lime help"
+For more information about the command-line tools, and the commands available, run "openfl help"
