@@ -16,4 +16,4 @@ OpenFL contains multiple samples for illustrating different features of the plat
 
 ## Adding an Image
 
-
+No matter what you plan to build, you will almost surely need to add an image at some point. This is very simple to do, so let's get started!
