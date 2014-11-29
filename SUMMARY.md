@@ -1,6 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
 * [Getting Started](getting_started/README.md)
    * [Installing OpenFL](getting_started/installing_openfl.md)
    * [Choosing a Code Editor](getting_started/choosing_a_code_editor.md)
