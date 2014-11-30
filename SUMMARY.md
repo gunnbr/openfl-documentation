@@ -54,3 +54,4 @@
 <!--* [Contributors](contributors/README.md)-->
 <!--   * [Source Code](contributors/source_code.md)-->
 <!--   * [Donate](contributors/donate.md)-->
+* [API Reference](/documentation/api/)
