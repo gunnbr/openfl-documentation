@@ -51,7 +51,8 @@
    * [Manual Install](advanced_setup/manual_install.md)
 * [Technical Overview](technical_overview/README.md)
    * [Core Architecture](technical_overview/core_architecture.md)
-<!--* [Contributors](contributors/README.md)-->
+* [Contributors](contributors/README.md)
+   * [Roadmap](contributors/roadmap.md)
 <!--   * [Source Code](contributors/source_code.md)-->
 <!--   * [Donate](contributors/donate.md)-->
 * [API Reference](/documentation/api/)
