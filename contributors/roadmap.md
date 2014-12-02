@@ -93,8 +93,6 @@
 
 ## OpenFL
 
-_Features marked with (-Dnext) are available already for native targets, but are being implemented again for the OpenFL "next" architecture._
-
 ### Internal
 
 - [x] Create an OpenFL Application class (using Lime)
@@ -165,3 +163,5 @@ _Features marked with (-Dnext) are available already for native targets, but are
 - [x] Build a test suite to validate API support
 - [ ] Write additional tests to prevent regressions
 - [ ] Write more documentation
+
+_* Features marked with (-Dnext) are available already for native targets, but are being implemented again for the OpenFL "next" architecture._
