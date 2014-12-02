@@ -89,6 +89,8 @@
 
 - [x] Migrate the Lime legacy binary source into the same repository
 
+---
+
 ## OpenFL
 
 _Features marked with (-Dnext) are available already for native targets, but are being implemented again for the OpenFL "next" architecture._
