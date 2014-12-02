@@ -175,4 +175,4 @@ If you would like to run the command from a different folder on your system, you
 
 ## Issues
 
-Any problems? Please visit our helpful [community forums](http://community.openfl.org) if you are experiencing trouble
+Any problems? Please visit our helpful [community forums](http://community.openfl.org) if you are experiencing trouble!
