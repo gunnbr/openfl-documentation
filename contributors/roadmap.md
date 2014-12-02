@@ -115,7 +115,7 @@ _Features marked with (-Dnext) are available already for native targets, but are
 
 * ~~Validate the accuracy of the event bubble/capture behavior~~
 * Dispatch ENTER_FRAME events even when objects are not in the display list
-* Dispatch FRAME_CONSTRUCTED and EXIT_FRAME events
+* Dispatch FRAME\_CONSTRUCTED and EXIT\_FRAME events
 * Ensure that frame events remain optimized for objects that ignore them
 
 ### Filters
