@@ -6,7 +6,7 @@
 
 Building an OpenFL application relies upon the Lime command-line tools. Whether you are using an "openfl" command, a "lime" command, or are using an editor with OpenFL support built-in, these tools provide the backbone for delivering projects to each target platform.
 
-As needed, the tools will copy asset files, process template files, trigger compilers, package applications and deliver to a connected device or run on your local machine. There are many other features in the tools, but these are the basics that drive the creation of OpenFL projects for each platform.
+As needed, the tools will copy asset files, process template files, trigger compilers, package applications and deliver to a connected device or run on your local machine. There are many other features in the tools, but these are the basics that drive the creation of OpenFL projects.
 
 ## Haxe
 
@@ -15,7 +15,7 @@ As needed, the tools will copy asset files, process template files, trigger comp
 
 OpenFL developers write code in Haxe, a powerful language that can compile to _other_ programming languages. This unique (and proven) ability is the cornerstone to OpenFL's cross-platform nature.
 
-Based on your project, the arguments used and the target platform, the command-line tools use Haxe to compile Haxe source code into SWF bytecode, Neko bytecode, C++ or JavaScript.
+Based on your project, the arguments used and the target platform, the command-line tools use Haxe to compile Haxe source files into SWF bytecode, Neko bytecode, C++ or JavaScript.
 
 ## HXCPP (C++ Targets Only)
 
