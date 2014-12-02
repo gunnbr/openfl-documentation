@@ -172,3 +172,7 @@ The "flash" target will create a Flash SWF, and will use the default handler on 
 If you would like to run the command from a different folder on your system, you can also add an additional argument to the "test" command:
 
     openfl test ../DisplayingABitmap flash
+
+## Issues
+
+Any problems? Please visit our helpful [community forums](http://community.openfl.org) if you are experiencing trouble
