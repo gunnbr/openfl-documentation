@@ -51,6 +51,7 @@
    * [Manual Install](advanced_setup/manual_install.md)
 * [Technical Overview](technical_overview/README.md)
    * [Core Architecture](technical_overview/core_architecture.md)
+   * [Feature Matrix](technical_overview/feature_matrix.md)
 * [Contributors](contributors/README.md)
    * [Roadmap](contributors/roadmap.md)
 <!--   * [Source Code](contributors/source_code.md)-->
