@@ -1,19 +1,21 @@
 # Feature Matrix
 
+<style>th:not(:first-child) { text-align: center; }</style>
+
 ## openfl.display
 
 ### Bitmap
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | bitmapData | yes | yes | yes | yes |
 | pixelSnapping | yes | ignored | ignored | ignored |
 | smoothing | yes | yes | yes | yes |
 
 ### BitmapData
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | height | yes | yes | yes | yes |
 | rect | yes | yes | yes | yes |
 | transparent | yes | yes | yes | yes |
@@ -50,8 +52,8 @@
 
 ### DisplayObject
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | alpha | yes | yes | yes | yes |
 | blendMode | yes | ignored | yes* | partial |
 | cacheAsBitmap | yes | yes | yes* | planned |
@@ -77,8 +79,8 @@
 
 ### DisplayObjectContainer
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | mouseChildren | yes | yes | yes | yes |
 | numChildren | yes | yes | yes | yes |
 | tabChildren | yes | ignored | ignored | ignored |
@@ -99,15 +101,15 @@
 
 ### FrameLabel
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | frame | yes | yes | yes | yes |
 | name | yes | yes | yes | yes |
 
 ### Graphics
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | beginBitmapFill | yes | yes | yes | yes |
 | beginFill | yes | yes | yes | yes |
 | beginGradientFill | yes | no | partial | no |
@@ -133,8 +135,8 @@
 
 ### GraphicsBitmapFill
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | bitmapData | yes | yes | yes | yes |
 | matrix | yes | yes | yes | yes |
 | repeat | yes | yes | yes | yes |
@@ -142,14 +144,14 @@
 
 ### GraphicsEndFill
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ### GraphicsGradientFill
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | alphas | yes | yes | yes | yes |
 | colors | yes | yes | yes | yes |
 | focalPointRatio | yes | yes | yes | yes |
@@ -161,8 +163,8 @@
 
 ### GraphicsPath
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | commands | yes | yes | yes | yes |
 | data | yes | yes | yes | yes |
 | winding | yes | yes | yes | yes |
@@ -174,15 +176,15 @@
 
 ### GraphicsSolidFill
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | alpha | yes | yes | yes | yes |
 | color | yes | yes | yes | yes |
 
 ### GraphicsStroke
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | caps | yes | yes | yes | yes |
 | fill | yes | yes | yes | yes |
 | joints | yes | yes | yes | yes |
@@ -193,8 +195,8 @@
 
 ### InteractiveObject
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | doubleClickEnabled | yes | ignored | ignored | ignored |
 | focusRect | yes | ignored | ignored | ignored |
 | mouseEnabled | yes | yes | yes | yes |
@@ -205,8 +207,8 @@
 
 ### Loader
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | content | yes | yes | yes | yes |
 | contentLoaderInfo | yes | yes | yes | yes |
 | close | yes | no | no | no |
@@ -217,8 +219,8 @@
 
 ### LoaderInfo
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | applicationDomain | yes | ignored | ignored | ignored |
 | bytes | yes | yes | yes | yes |
 | bytesLoaded | yes | yes | yes | yes |
@@ -239,8 +241,8 @@
 
 ### MovieClip
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | currentFrame | yes | yes | yes | yes |
 | currentFrameLabel | yes | yes | yes | yes |
 | currentLabel | yes | yes | yes | yes |
@@ -257,21 +259,21 @@
 
 ### OpenGLView
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | isSupported | yes | yes | yes | yes |
 | render | ignored | yes | yes | yes |
 
 ### Shape
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | graphics | yes | yes | yes | yes |
 
 ### SimpleButton
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | downState | yes | yes | yes | yes |
 | enabled | yes | yes | yes | yes |
 | hitTestState | yes | yes | yes | yes |
@@ -283,8 +285,8 @@
 
 ### Sprite
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | buttonMode | yes | yes | ignored | ignored |
 | graphics | yes | yes | yes | yes |
 | useHandCursor | yes | yes | ignored | ignored |
@@ -293,8 +295,8 @@
 
 ### Stage
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | align | yes | no | partial | no |
 | color | yes | yes | yes | yes |
 | displayState | yes | partial | yes | yes |
@@ -309,8 +311,8 @@
 
 ### Tilesheet
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | addTileRect | yes | yes | yes | yes |
 | drawTiles | yes | yes | yes | yes |
 
@@ -318,20 +320,20 @@
 
 ### ArgumentError
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ### EOFError
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ### Error
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | errorID | yes | yes | yes | yes |
 | message | yes | yes | yes | yes |
 | name | yes | yes | yes | yes |
@@ -339,40 +341,40 @@
 
 ### IllegalOperationError
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ### IOError
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ### RangeError
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ### SecurityError
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ### TypeError
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ## openfl.events
 
 ### AccelerometerEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | accelerationX | yes | yes | yes | yes |
 | accelerationY | yes | yes | yes | yes |
 | accelerationZ | yes | yes | yes | yes |
@@ -380,33 +382,33 @@
 
 ### AsyncErrorEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | error | yes | yes | yes | yes |
 
 ### ContextMenuEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | contextMenuOwner | yes | ignored | ignored | ignored |
 | mouseTarget | yes | ignored | ignored | ignored |
 
 ### DataEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | data | yes | yes | yes | yes |
 
 ### ErrorEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | errorID | yes | yes | yes | yes |
 
 ### Event
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | bubbles | yes | yes | yes | yes |
 | cancelable | yes | yes | yes | yes |
 | currentTarget | yes | yes | yes | yes |
@@ -420,8 +422,8 @@
 
 ### EventDispatcher
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | addEventListener | yes | yes | yes | yes |
 | dispatchEvent | yes | yes | yes | yes |
 | hasEventListener | yes | yes | yes | yes |
@@ -430,30 +432,30 @@
 
 ### FocusEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | keyCode | yes | yes | yes | yes |
 | relatedObject | yes | yes | yes | yes |
 | shiftKey | yes | yes | yes | yes |
 
 ### HTTPStatusEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | responseHeaders | yes | yes | yes | yes |
 | responseURL | yes | yes | yes | yes |
 | status | yes | yes | yes | yes |
 
 ### IOErrorEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ### JoystickEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | axis | no | planned | yes | planned |
 | device | no | planned | yes | planned |
 | id | no | planned | yes | planned |
@@ -463,8 +465,8 @@
 
 ### KeyboardEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | altKey | yes | yes | yes | yes |
 | charCode | yes | yes | yes | yes |
 | ctrlKey | yes | yes | yes | yes |
@@ -476,8 +478,8 @@
 
 ### MouseEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | altKey | yes | yes | yes | yes |
 | buttonDown | yes | yes | yes | yes |
 | commandKey | yes | yes | yes | yes |
@@ -493,46 +495,46 @@
 
 ### NetStatusEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | info | yes | yes | yes | yes |
 
 ### ProgressEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | bytesLoaded | yes | yes | yes | yes |
 | bytesTotal | yes | yes | yes | yes |
 
 ### SampleDataEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | data | yes | planned | yes | planned |
 | position | yes | planned | yes | planned |
 
 ### SecurityErrorEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ### TextEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | text | yes | yes | yes | planned |
 
 ### TimerEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ### TouchEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | altKey | yes | yes | yes | yes |
 | buttonDown | yes | yes | yes | yes |
 | commandKey | yes | yes | yes | yes |
@@ -552,22 +554,22 @@
 
 ### UncaughtErrorEvent
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | error | yes | yes | yes | yes |
 
 ### UncaughtErrorEvents
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | (available) | yes | yes | yes | yes |
 
 ## openfl.external
 
 ### ExternalInterface
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | available | yes | yes | ignored | ignored |
 | marshallExceptions | yes | ignored | ignored | ignored |
 | objectID | yes | ignored | ignored | ignored |
@@ -576,28 +578,28 @@
 
 ### BitmapFilter
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | clone | yes | yes | yes | yes |
 
 ### BlurFilter
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | blurX | yes | ignored | yes | ignored |
 | blurY | yes | ignored | yes | ignored |
 | quality | yes | ignored | yes | ignored |
 
 ### ColorMatrixFilter
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | matrix | yes | yes | yes | planned |
 
 ### DropShadowFilter
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | alpha | yes | ignored | yes | ignored |
 | angle | yes | ignored | yes | ignored |
 | blurX | yes | ignored | yes | ignored |
@@ -612,8 +614,8 @@
 
 ### GlowFilter
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | alpha | yes | ignored | yes | ignored |
 | blurX | yes | ignored | yes | ignored |
 | blurY | yes | ignored | yes | ignored |
@@ -627,8 +629,8 @@
 
 ### ColorTransform
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | alphaMultiplier | yes | yes | yes | yes |
 | alphaOffset | yes | yes | yes | yes |
 | blueMultiplier | yes | yes | yes | yes |
@@ -642,8 +644,8 @@
 
 ### Matrix
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | a | yes | yes | yes | yes |
 | b | yes | yes | yes | yes |
 | c | yes | yes | yes | yes |
@@ -673,8 +675,8 @@
 
 ### Matrix3D
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | determinant | yes | yes | yes | yes |
 | position | yes | yes | yes | yes |
 | rawData | yes | yes | yes | yes |
@@ -713,8 +715,8 @@
 
 ### PerspectiveProjection
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | fieldOfView | yes | yes | yes | yes |
 | focalLength | yes | yes | yes | yes |
 | projectionCenter | yes | yes | yes | yes |
@@ -722,8 +724,8 @@
 
 ### Point
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | length | yes | yes | yes | yes |
 | x | yes | yes | yes | yes |
 | y | yes | yes | yes | yes |
@@ -740,8 +742,8 @@
 
 ### Rectangle
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | bottom | yes | yes | yes | yes |
 | bottomRight | yes | yes | yes | yes |
 | height | yes | yes | yes | yes |
@@ -773,8 +775,8 @@
 
 ### Transform
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | colorTransform | yes | yes | yes | yes |
 | concatenatedColorTransform | yes | yes | yes | yes |
 | concatenatedMatrix | yes | yes | yes | yes |
@@ -783,14 +785,14 @@
 
 ### Utils3D
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | projectVector | yes | yes | yes | yes |
 
 ### Vector3D
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | length | yes | yes | yes | yes |
 | lengthSquared | yes | yes | yes | yes |
 | w | yes | yes | yes | yes |
@@ -819,8 +821,8 @@
 
 ### ID3Info
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | album | yes | ignored | ignored | ignored |
 | artist | yes | ignored | ignored | ignored |
 | comment | yes | ignored | ignored | ignored |
@@ -831,8 +833,8 @@
 
 ### Sound
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | bytesLoaded | yes | yes | yes | yes |
 | bytesTotal | yes | yes | yes | yes |
 | id3 | yes | ignored | ignored | ignored |
@@ -847,8 +849,8 @@
 
 ### SoundChannel
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | leftPeak | yes | ignored | ignored | ignored |
 | position | yes | yes | yes | yes |
 | rightPeak | yes | ignored | ignored | ignored |
@@ -857,15 +859,15 @@
 
 ### SoundLoaderContext
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | bufferTime | yes | ignored | ignored | ignored |
 | checkPolicyFile | yes | ignored | ignored | ignored |
 
 ### SoundTransform
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | leftToLeft | yes | yes | yes | yes |
 | leftToRight | yes | yes | yes | yes |
 | pan | yes | yes | yes | yes |
@@ -876,8 +878,8 @@
 
 ### Video
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | deblocking | yes | ignored | ignored | ignored |
 | smoothing | yes | ignored | ignored | ignored |
 | attachNetStream | yes | yes | no | no |
@@ -887,14 +889,14 @@
 
 ### NetConnection
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | connect | yes | yes | ignored | ignored |
 
 ### NetStream
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | audioCodec | yes | ignored | ignored | ignored |
 | bufferLength | yes | ignored | ignored | ignored |
 | bufferTime | yes | ignored | ignored | ignored |
@@ -916,8 +918,8 @@
 
 ### SharedObject
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | data | yes | yes | yes | yes |
 | size | yes | yes | yes | yes |
 | clear | yes | yes | yes | yes |
@@ -927,8 +929,8 @@
 
 ### Socket
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | bytesAvailable | yes | yes | yes | yes |
 | bytesPending | yes | yes | yes | yes |
 | timeout | yes | yes | yes | yes |
@@ -965,8 +967,8 @@
 
 ### URLLoader
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | bytesLoaded | yes | yes | yes | planned |
 | bytesTotal | yes | yes | yes | planned |
 | data | yes | yes | yes | planned |
@@ -976,8 +978,8 @@
 
 ### URLRequest
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | contentType | yes | yes | yes | planned |
 | data | yes | yes | yes | planned |
 | method | yes | yes | yes | planned |
@@ -988,21 +990,21 @@
 
 ### URLRequestHeader
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | name | yes | yes | yes | yes |
 | value | yes | yes | yes | yes |
 
 ### URLVariables
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | decode | yes | yes | yes | yes |
 
 ### XMLSocket
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | connected | yes | yes | yes | ignored |
 | timeout | yes | ignored | ignored | ignored |
 | close | yes | yes | yes | ignored |
@@ -1014,8 +1016,8 @@
 
 ### Accelerometer
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | isSupported | yes | ignored | yes | ignored |
 | muted | yes | ignored | yes | ignored |
 | setRequestedUpdateInterval | yes | ignored | yes | ignored |
@@ -1024,8 +1026,8 @@
 
 ### ApplicationDomain
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | currentDomain | yes | ignored | ignored | ignored |
 | parentDomain | yes | ignored | ignored | ignored |
 | getDefinition | yes | ignored | ignored | ignored |
@@ -1033,8 +1035,8 @@
 
 ### Capabilities
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | hasAccessibility | yes | ignored | ignored | ignored |
 | pixelAspectRatio | yes | yes | yes | planned |
 | screenDPI | yes | yes | yes | planned |
@@ -1044,8 +1046,8 @@
 
 ### LoaderContext
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | allowCodeImport | yes | ignored | ignored | ignored |
 | allowLoadBytesCodeExecution | yes | ignored | ignored | ignored |
 | applicationDomain | yes | ignored | ignored | ignored |
@@ -1054,8 +1056,8 @@
 
 ### Security
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | disableAVM1Loading | yes | ignored | ignored | ignored |
 | exactSettings | yes | ignored | ignored | ignored |
 | sandboxType | yes | ignored | ignored | ignored |
@@ -1065,14 +1067,14 @@
 
 ### SecurityDomain
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | currentDomain | yes | ignored | ignored | ignored |
 
 ### System
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | totalMemory | yes | ignored | yes | planned |
 | useCodePage | yes | ignored | ignored | ignored |
 | vmVersion | yes | ignored | ignored | ignored |
@@ -1086,8 +1088,8 @@
 
 ### Font
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | fontName | yes | yes | yes | yes |
 | fontStyle | yes | ignored | ignored | ignored |
 | fontType | yes | ignored | ignored | ignored |
@@ -1096,8 +1098,8 @@
 
 ### TextField
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | antiAliasType | yes | ignored | ignored | ignored |
 | autoSize | yes | partial | partial | planned |
 | background | yes | yes | yes | planned |
@@ -1144,8 +1146,8 @@
 
 ### TextFormat
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | align | yes | yes | yes | yes |
 | blockIndent | yes | yes | yes | yes |
 | bold | yes | yes | yes | yes |
@@ -1168,8 +1170,8 @@
 
 ### TextLineMetrics
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | ascent | yes | yes | yes | yes |
 | descent | yes | yes | yes | yes |
 | height | yes | yes | yes | yes |
@@ -1181,23 +1183,23 @@
 
 ### Keyboard
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | capsLock | yes | yes | yes | yes |
 | numLock | yes | yes | yes | yes |
 | isAccessible | yes | ignored | ignored | ignored |
 
 ### Mouse
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | hide | yes | planned | yes | planned |
 | show | yes | planned | yes | planned |
 
 ### Multitouch
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | inputMode | yes | partial | partial | partial |
 | maxTouchPoints | yes | ignored | ignored | ignored |
 | supportedGestures | yes | ignored | ignored | ignored |
@@ -1208,8 +1210,8 @@
 
 ### ByteArray
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | bytesAvailable | yes | yes | yes | yes |
 | endian | yes | yes | yes | yes |
 | objectEncoding | yes | ignored | ignored | ignored |
@@ -1248,8 +1250,8 @@
 
 ### Timer
 
-| Feature | <div class="text-center">Flash</div> | <div class="text-center">HTML5</div> | <div class="text-center">Native</div> | <div class="text-center">Native (Next)</div> |
-| ------- |:----:|:----:|:----:|:----:|
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
 | currentCount | yes | yes | yes | yes |
 | delay | yes | yes | yes | yes |
 | repeatCount | yes | yes | yes | yes |
