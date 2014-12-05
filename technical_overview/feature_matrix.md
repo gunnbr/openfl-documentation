@@ -1260,4 +1260,89 @@
 | start | yes | yes | yes | yes |
 | stop | yes | yes | yes | yes |
 
+## openfl
+
+### Assets
+
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
+| cache | yes | yes | yes | yes |
+| addEventListener | yes | yes | yes | yes |
+| dispatchEvent | yes | yes | yes | yes |
+| exists | yes | yes | yes | yes |
+| getBitmapData | yes | yes | yes | yes |
+| getBytes | yes | yes | yes | yes |
+| getFont | yes | yes | yes | yes |
+| getLibrary | yes | yes | yes | yes |
+| getMovieClip | yes | yes | yes | yes |
+| getMusic | yes | yes | yes | yes |
+| getPath | yes | yes | yes | yes |
+| getSound | yes | yes | yes | yes |
+| getText | yes | yes | yes | yes |
+| hasEventListener | yes | yes | yes | yes |
+| isLocal | yes | yes | yes | yes |
+| list | yes | yes | yes | yes |
+| loadBitmapData | yes | yes | yes | yes |
+| loadBytes | yes | yes | yes | yes |
+| loadFont | yes | yes | yes | yes |
+| loadLibrary | yes | yes | yes | yes |
+| loadMusic | yes | yes | yes | yes |
+| loadMovieClip | yes | yes | yes | yes |
+| loadSound | yes | yes | yes | yes |
+| loadText | yes | yes | yes | yes |
+| registerLibrary | yes | yes | yes | yes |
+| removeEventListener | yes | yes | yes | yes |
+| unloadLibrary | yes | yes | yes | yes |
+| cache | yes | yes | yes | yes |
+
+### Lib
+
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
+| application | yes | yes | no | yes |
+| current | yes | yes | yes | yes |
+| embed | no | yes | no | no |
+| getTimer | yes | yes | yes | yes |
+| getURL | yes | yes | yes | planned |
+| notImplemented | yes | yes | yes | yes |
+| trace | yes | yes | yes | yes |
+
+### Memory
+
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
+| getByte | yes | yes | yes | yes |
+| getDouble | yes | yes | yes | yes |
+| getFloat | yes | yes | yes | yes |
+| getI32 | yes | yes | yes | yes |
+| getUI16 | yes | yes | yes | yes |
+| select | yes | yes | yes | yes |
+| setByte | yes | yes | yes | yes |
+| setDouble | yes | yes | yes | yes |
+| setFloat | yes | yes | yes | yes |
+| setI16 | yes | yes | yes | yes |
+| setI32 | yes | yes | yes | yes |
+
+### Vector
+
+| Feature | Flash | HTML5 | Native | Native (Next) |
+| ------- |:-----:|:-----:|:------:|:-------------:|
+| length | yes | yes | yes | yes |
+| fixed | yes | yes | yes | yes |
+| concat | yes | yes | yes | yes |
+| convert | yes | yes | yes | yes |
+| copy | yes | yes | yes | yes |
+| indexOf | yes | yes | yes | yes |
+| join | yes | yes | yes | yes |
+| lastIndexOf | yes | yes | yes | yes |
+| pop | yes | yes | yes | yes |
+| push | yes | yes | yes | yes |
+| reverse | yes | yes | yes | yes |
+| shift | yes | yes | yes | yes |
+| unshift | yes | yes | yes | yes |
+| slice | yes | yes | yes | yes |
+| sort | yes | yes | yes | yes |
+| splice | yes | yes | yes | yes |
+| toArray | yes | yes | yes | yes |
+
 _* Implemented using software rendering instead of hardware rendering_
