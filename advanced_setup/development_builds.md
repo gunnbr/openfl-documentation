@@ -27,6 +27,12 @@ If you prefer so, you can also use the `haxelib git` command. It allows haxelib 
     haxelib git nme https://github.com/haxenme/nme
     haxelib git nme-dev https://github.com/haxenme/nme-dev
 
+Lime uses several submodules that must be initialized before it can be built:
+
+    cd lime
+    git submodule init
+    git submodule update
+    
 Lime includes a `rebuild` command to rebuild the native binaries for each platform. You can specify one target, or multiple targets separated by commas. For example, to rebuild the native binary for Windows the command would be:
 
     lime rebuild windows
